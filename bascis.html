@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 200px;
+            background-color: red;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 50px;
+            color: white;
+            text-align:center;
+            border: 4px solid black;
+        }
+        .parent{
+            width: 100%;
+            
+            display: flex;
+            /*flex-direction: row;
+            flex-wrap: wrap;*/
+            flex-direction: row;
+            flex-flow:column wrap;
+            gap: 5px;
+            justify-content: space-between;
+        }
+        body{
+            background-color: salmon;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="card">
+            <p>heading.01</p>
+        </div>
+        <div class="card">
+            <p>heading.01</p>
+        </div>
+        <div class="card">
+            <p>heading.01</p>
+        </div>
+        <div class="card">
+            <p>heading.01</p>
+        </div>
+        <div class="card">
+            <p>heading.01</p>
+        </div>
+        <div class="card">
+            <p>heading.01</p>
+        </div>
+        
+    </div>
+</body>
+</html>
